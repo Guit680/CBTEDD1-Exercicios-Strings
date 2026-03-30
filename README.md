@@ -1,3 +1,5 @@
+📘 Exercícios em C++
+
 Este repositório contém uma coleção de exercícios desenvolvidos em C++, abordando manipulação de strings, arquivos e efeitos visuais no terminal.
 
 📂 Estrutura do Projeto
@@ -41,6 +43,7 @@ Sobrenome, Nome(s)
 
 Entrada: João Silva  
 Saída: Silva, João
+
 🔴 Exercício 4 – Citação Bibliográfica
 
 Lê nomes de um arquivo nomes.txt e:
@@ -51,25 +54,13 @@ Converte para formato de citação acadêmica
 
 Entrada: João Pedro da Silva  
 Saída: SILVA, João P. D.
-⚙️ Como Compilar e Executar
-🔧 Requisitos
-Compilador C++ (g++, MinGW, etc.)
-💻 Compilação
-g++ "Exercicio 1.cpp" -o ex1
-g++ "Exercicio 2.cpp" -o ex2
-g++ "Exercicio 3.cpp" -o ex3
-g++ "Exercicio 4.cpp" -o ex4
-▶️ Execução
-./ex1
-./ex2
-./ex3
-./ex4
-📄 Arquivo nomes.txt
 
-Para os exercícios 3 e 4, crie um arquivo nomes.txt na mesma pasta do programa:
+📌 Observações
+O Exercício 1 é dependente de Windows (windows.h)
+Os Exercícios 3 e 4 dependem da existência do arquivo nomes.txt
+O código utiliza conceitos básicos de:
+Strings
+Arquivos (ifstream)
+Manipulação de caracteres
+Estruturas de repetição
 
-Exemplo:
-
-João Silva
-Maria Oliveira Santos
-Carlos Souza
